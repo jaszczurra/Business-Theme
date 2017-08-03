@@ -1,0 +1,190 @@
+$main-color: #0383c0;
+$second-color: #e44d26;
+$gray-color: #f4f4f4;
+
+html, body {
+    height: 100%;
+}
+body {
+    padding-top: 90px;
+    font-family: "Saira Extra Condensed", sans-serif;
+}
+
+section {
+    padding: 30px 0;
+}
+
+h1, h2, h3 {
+    text-transform: uppercase;
+}
+
+.btn-primary {
+    border: none;
+}
+
+/* NAVBAR */
+
+.nav {
+    margin-top: 18px;
+}
+
+.navbar {
+    min-height: 90px;
+    margin-bottom: 0 !important;
+}
+
+.navbar-brand {
+    height: auto;
+    padding-top: 15px;
+    margin: 0;
+}
+
+.navbar-nav {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-nav li {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.navbar-nav > li > a {
+    padding: 20px;
+    font-size: 22px;
+    font-weight: 700;
+    border-right: 1px solid #ccc;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.navbar-nav > li > a > div {
+    margin: 5px 0 0 0;
+    padding: 0;
+    font-size: 18px;
+    display: block;
+    font-weight: 400l;
+    text-transform: none;
+    letter-spacing: 0;
+}
+
+.navbar-nav a:hover, .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    background-color: $main-color !important;
+    color: #fff !important;
+}
+
+/* JUMBOTRON */
+
+.jumbotron {
+    margin: 0 !important;
+    min-height: 450px;
+    background: url(../img/bg.jpg) no-repeat;
+
+    h1 {
+        font-size: 70px;
+    }
+    .col-md-5 {
+        padding: auto;
+    }
+    .btn-primary {
+        background-color: $main-color;
+    }
+    p {
+        font-size: 30px;
+    }
+}
+
+/* ICON SECTION */
+
+.fa-color {
+    color: $main-color;
+}
+
+.section-gray {
+    background-color: $gray-color;
+}
+
+.section-gray h3 {
+    font-size: 30px; 
+}
+
+/* SECONDARY SECTION */
+
+.section-secondary {
+    background-color: $second-color;
+    color: #fff;
+    padding: 60px 0;
+
+    .btn-primary {
+        background-color: #fff;
+        color: #000;
+    }
+    h1 {
+        font-size: 40px;
+    }
+    p {
+        font-size: 25px;
+        margin-bottom: 30px;
+    }
+}
+
+/* LIST SECTION */
+
+.section-list {
+    background-color: #fff;
+
+    h2 {
+        font-size: 35px;
+    }
+    ul {
+        padding: 0;
+    }
+    li {
+        list-style: none;
+        font-size: 22px;
+        line-height: 2em;
+    }
+    .photo-col {
+        padding-top: 30px;
+    }
+}
+
+/*  MORE FEATURES SECTION */
+
+.section-primary {
+    background-color: $main-color;
+    color: #fff;
+
+    .features {
+        padding-left: 50px;
+    }
+    h2 {
+        font-size: 35px;
+    }
+    ul {
+        padding: 0;
+    }
+    li {
+        list-style: none;
+        font-size: 22px;
+        line-height: 2em;
+    }
+    .photo-col {
+        padding-top: 30px;
+    }
+}
+
+/* FOOTER */
+
+footer {
+    height: 35px;
+    padding-top: 10px;
+    text-align: center;
+    font-size: 15px;
+    background-color: $gray-color;
+    letter-spacing: 1px;
+
+    p {
+        margin: 0;
+    }
+}
