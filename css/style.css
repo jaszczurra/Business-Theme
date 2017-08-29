@@ -59,7 +59,7 @@ h1, h2, h3 {
   padding: 0;
   font-size: 18px;
   display: block;
-  font-weight: 400l;
+  font-weight: 400;
   text-transform: none;
   letter-spacing: 0;
 }
@@ -172,4 +172,147 @@ footer {
 }
 footer p {
   margin: 0;
+}
+
+/* ABOUT */
+.section-title {
+  padding: 10px;
+  background-color: #0383c0;
+  color: #fff;
+}
+.section-title small {
+  color: #f4f4f4;
+}
+
+.section-welcome .breadcrumb {
+  margin-top: 20px;
+}
+.section-welcome li {
+  font-size: 18px;
+}
+.section-welcome h2 {
+  font-size: 45px;
+  margin-top: 0px;
+}
+.section-welcome p {
+  font-size: 20px;
+}
+
+.section-welcome, .section-team, .section-clients {
+  margin: 0;
+  padding: 0;
+}
+.section-welcome h2, .section-team h2, .section-clients h2 {
+  font-weight: 700;
+}
+.section-welcome .col-lg-12, .section-team .col-lg-12, .section-clients .col-lg-12 {
+  padding-left: 0;
+}
+
+.section-clients img {
+  margin: 10px 0 20px 0;
+}
+
+/* SERVICES */
+.section-our-services, .section-services-tabs, .section-services-images {
+  padding-top: 0;
+}
+
+.section-our-services h2 {
+  font-weight: 700;
+}
+.section-our-services p {
+  font-size: 18px;
+}
+
+.section-services-tabs .row {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.section-services-tabs a {
+  font-size: 20px;
+}
+.section-services-tabs p {
+  font-size: 18px;
+}
+
+.section-services-images h2 {
+  font-weight: 700;
+}
+.section-services-images p {
+  font-size: 18px;
+}
+.section-services-images a {
+  font-size: 16px !important;
+}
+
+/* CONTACT */
+.section-contact {
+  padding-top: 20px;
+}
+.section-contact h3 {
+  font-weight: 700;
+}
+.section-contact p, .section-contact label, .section-contact button {
+  font-size: 16px;
+}
+.section-contact iframe {
+  margin-bottom: 20px;
+}
+
+/* Media Query */
+@media (max-width: 990px) {
+  .navbar-header {
+    float: none;
+  }
+
+  .navbar-left, .navbar-right {
+    float: none !important;
+  }
+
+  .navbar-toggle {
+    display: block;
+  }
+
+  .navbar-collapse {
+    border-top: 1px solid transparent;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1);
+  }
+
+  .navbar-fixed-top {
+    top: 0;
+    border-width: 0 0 1px;
+  }
+
+  .navbar-collapse.collapse {
+    display: none !important;
+  }
+
+  .navbar-nav {
+    float: none;
+    margin-top: 7.5px;
+  }
+
+  .navbar-nav > li {
+    float: none;
+  }
+
+  .navbar-nav > li > a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-right: none;
+  }
+
+  .collapse.in {
+    display: block !important;
+  }
+}
+@media (max-width: 768px) {
+  .jumbotron {
+    min-height: 300px;
+  }
+
+  .jumbotron img {
+    display: none;
+  }
 }

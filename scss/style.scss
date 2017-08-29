@@ -63,7 +63,7 @@ h1, h2, h3 {
     padding: 0;
     font-size: 18px;
     display: block;
-    font-weight: 400l;
+    font-weight: 400;
     text-transform: none;
     letter-spacing: 0;
 }
@@ -186,5 +186,156 @@ footer {
 
     p {
         margin: 0;
+    }
+}
+
+/* ABOUT */
+
+.section-title {
+    padding: 10px;
+    background-color: $main-color;
+    color: #fff;
+
+    small {
+        color: $gray-color;
+    }
+}
+
+.section-welcome {
+    .breadcrumb {
+        margin-top: 20px;
+    }
+    li {
+        font-size: 18px;
+    }
+    h2 {
+        font-size: 45px;
+        margin-top: 0px;
+    }
+    p {
+        font-size: 20px;
+    }
+}
+
+.section-welcome, .section-team, .section-clients {
+    margin: 0;
+    padding: 0;
+    
+    h2 {
+        font-weight: 700;
+    }
+    .col-lg-12 {
+        padding-left: 0;
+    }    
+}
+
+.section-clients {
+    img {
+        margin: 10px 0 20px 0;
+    }
+}
+
+/* SERVICES */
+.section-our-services, .section-services-tabs, .section-services-images {
+    padding-top: 0;
+}
+
+.section-our-services {
+    h2 {
+        font-weight: 700;
+    }
+    p {
+        font-size: 18px;
+    }
+    
+}
+
+.section-services-tabs {
+    .row {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    a {
+        font-size: 20px;
+    }
+    p {
+        font-size: 18px;
+    }
+}
+
+.section-services-images {
+    h2 {
+            font-weight: 700;
+        }
+    p {
+        font-size: 18px;
+    }
+    a {
+        font-size: 16px !important;
+    }
+}
+
+/* CONTACT */
+.section-contact {
+    padding-top: 20px;
+
+    h3 {
+        font-weight: 700;
+    }
+    p, label, button {
+        font-size: 16px;
+    }
+    iframe {
+        margin-bottom: 20px;
+    }
+}
+
+
+/* Media Query */
+@media (max-width: 990px){
+    .navbar-header {
+        float: none;
+    }
+    .navbar-left, .navbar-right {
+        float: none !important;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1);
+    }
+    .navbar-fixed-top {
+        top: 0;
+        border-width: 0 0 1px;
+    }
+    .navbar-collapse.collapse {
+        display: none !important;
+    }
+    .navbar-nav {
+        float: none;
+        margin-top: 7.5px;
+    }
+    .navbar-nav > li {
+        float: none;
+    }
+    .navbar-nav > li >a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-right: none;
+    }
+    .collapse.in {
+        display: block !important;
+    }
+
+}
+
+@media (max-width: 768px){
+    .jumbotron {
+        min-height: 300px;
+    }
+    .jumbotron img {
+        display: none;
     }
 }
